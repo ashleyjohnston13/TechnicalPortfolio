@@ -19,42 +19,37 @@ All insights below are derived from Tableau dashboards created for this project.
 ---
 
 ## 🟧 Donation Rate by Alumni Event Participation  
-Alumni who stay actively engaged through events are far more likely to give again.
+Alumni who stay engaged through events are dramatically more likely to donate.
 
 ![Donation Rate by Alumni Event Participation](Plots/Donation%20Rate%20by%20Alumni%20Event%20Participation.png)
-
-**Insight:**  
-Alumni who attend **5+ events** donate at **83.3 percent**, compared to **9.8 percent** for those attending none.
 
 ---
 
 ## 🏈 Donation Rate by Football Game Attendance  
-Long-term sports engagement is closely tied to donor behavior.
+Sports engagement strongly predicts donor loyalty.
 
-![Donation Rate by Football Game Attendance](Donation%20Rate%20by%20Football%20Game%20Attendance%20.png)
-
-**Insight:**  
-Alumni with **50+ total games attended** donate at **82.3 percent**, compared to only **9.6 percent** for those who never attend games.
+![Donation Rate by Football Game Attendance](Plots/Donation%20Rate%20by%20Football%20Game%20Attendance%20.png)
 
 ---
 
 ## 📈 Donation Rate by Number of Prior Giving Years  
-Giving history is one of the strongest predictors of giving again.
+Giving history is the strongest predictor of future donations.
 
-![Donation Rate by Number of Prior Giving Years](Donation%20Rate%20by%20Number%20of%20Prior%20Giving%20Years%20.png)
-
-**Insight:**  
-Donation likelihood increases steadily year over year, peaking at **94.4 percent** for alumni with **9 prior giving years**.
+![Donation Rate by Number of Prior Giving Years](Plots/Donation%20Rate%20by%20Number%20of%20Prior%20Giving%20Years%20.png)
 
 ---
 
 ## 💵 Donation Rate by Total Cash Given in the Last 10 Years  
-Lifetime giving is highly predictive of continued philanthropy.
+Lifetime giving shows a powerful positive relationship with donating again.
 
-![Donation Rate by Total Cash Given in the Last 10 Years](Donation%20Rate%20by%20Total%20Cash%20Given%20in%20the%20Last%2010%20Years%20.png)
+![Donation Rate by Total Cash Given in the Last 10 Years](Plots/Donation%20Rate%20by%20Total%20Cash%20Given%20in%20the%20Last%2010%20Years%20.png)
 
-**Insight:**  
-Alumni who gave **$501+ in the last decade** donate at **63.7 percent**, compared to **2.5 percent** for those who gave nothing.
+---
+
+## 🎁 When 1st Gift — Driver Plot  
+Timing of the first donation reveals strong patterns linked to donor retention.
+
+![When 1st Gift — Driver Plot](Plots/When%201st%20Gift%20—%20Driver%20Plot.png)
 
 ---
 
