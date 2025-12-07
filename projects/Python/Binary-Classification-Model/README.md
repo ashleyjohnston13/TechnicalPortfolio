@@ -74,7 +74,7 @@ These features contribute most strongly to the model’s ability to distinguish 
 
 ## 🛠️ Code
 
-All logic for preprocessing, modeling, and plotting is contained in: breast_cancer_classification.py
+All logic for preprocessing, modeling, and plotting is contained in: `breast_cancer_classification.py`
 
 Running the script automatically:
 
