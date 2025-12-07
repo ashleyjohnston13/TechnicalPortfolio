@@ -1,115 +1,104 @@
-# 📊 Alumni Engagement & Donation Behavior Dashboard  
-### *Tableau Case Study — BAS 479 Business Analytics Capstone (UTK)*
+# 🎓 Alumni Donation Behavior Analysis  
+**BAS 479 Business Analytics Capstone – University of Tennessee, Knoxville**
 
-This project was completed as part of my Business Analytics Capstone course (BAS 479) at the University of Tennessee, Knoxville.  
-Due to course requirements and FERPA-related restrictions, the underlying dataset cannot be published.  
-This README includes only aggregated results, visualizations, and analytical summaries, which are permitted for portfolio use.
+This project analyzes key behavioral drivers of alumni donation likelihood using engagement, giving history, and event participation patterns. The goal is to help Advancement teams understand which touchpoints most strongly predict future giving.
 
 ---
 
-## 🎯 Objective
-
-Analyze how alumni engagement behaviors — event participation, athletic attendance, giving history, and lifetime giving — influence the likelihood of donating in the following year.  
-The goal was to identify behavior-based predictors that Advancement teams can use to strengthen outreach and improve donor retention.
-
----
-
-## 🧰 Tools & Skills Used
-
-- Tableau (dashboard building, cohort segmentation, KPI modeling)  
-- Behavioral analytics & donor lifecycle modeling  
-- Segmentation analysis  
-- Predictive indicator identification  
-- Data storytelling & professional reporting  
-- Excel prep & calculated fields (raw data not included)
+## ⚠️ Data Usage Notice
+**This project uses a restricted dataset provided through BAS 479 at the University of Tennessee, Knoxville.**  
+The underlying data is not publicly shareable for academic integrity reasons.  
+Only **final visualizations and high-level methodology** are included here.
 
 ---
 
-## 📂 File Structure
+# 📊 Key Insights & Visualizations
 
-```text
-alumni-engagement-donations/
-│── README.md
-│── Dashboard-Images/
-│     ├── events_donation_rate.png
-│     ├── games_donation_rate.png
-│     ├── prior_years_donation_rate.png
-│     ├── lifetime_cash_donation_rate.png
-│── (No raw data included – restricted due to BAS 479 academic policy)
-```
+All insights below are derived from Tableau dashboards I created for this project.  
+Each visualization is based on aggregated, de-identified metrics allowed for public display.
+
 ---
 
-## 📈 Key Dashboards & Insights
+## 🟧 Donation Rate by Alumni Event Participation  
+Alumni who stay actively engaged through events are **far more likely** to give again.
 
-### 🟧 1. Donation Rate by Alumni Event Participation  
-Alumni who attend more engagement events show dramatically higher donation rates.
-
-![Donation Rate by Events](Dashboard-Images/events_donation_rate.png)
+![Donation Rate by Alumni Event Participation](Plots/event_participation.png)
 
 **Insight:**  
-- 5+ events → ~83% donation rate  
-- No events → ~10% donation rate  
-- Event engagement is one of the strongest predictors of giving.
+Attending **5+ events** increases donation likelihood to **83 percent**, compared to only **9.8 percent** for alumni with no event participation.  
+Event involvement is one of the strongest behavioral indicators of donor conversion.
 
 ---
 
-### 🏈 2. Donation Rate by Football Game Attendance  
-Long-term athletics involvement strongly correlates with donor loyalty.
+## 🏈 Donation Rate by Football Game Attendance  
+Long-term sports engagement is a powerful predictor of giving.
 
-![Donation Rate by Games](Dashboard-Images/games_donation_rate.png)
+![Donation Rate by Football Game Attendance](Plots/football_attendance.png)
 
 **Insight:**  
-- 50+ games attended → ~82% donation rate  
-- No games attended → ~9%  
-- Athletic affinity is a high-value donor segment.
+Alumni who have attended **50 or more games** donate at **82.3 percent**, dramatically higher than alumni with no game attendance (**9.6 percent**).  
+Lifelong affinity strongly correlates with philanthropic behavior.
 
 ---
 
-### 📅 3. Donation Rate by Number of Prior Giving Years  
-Giving history is the **strongest predictor** of future giving.
+## 📈 Donation Rate by Number of Prior Giving Years  
+Giving is a habitual behavior — each repeated year of giving increases the odds of giving again.
 
-![Prior Years Giving](Dashboard-Images/prior_years_donation_rate.png)
+![Donation Rate by Number of Prior Giving Years](Plots/prior_giving_years.png)
 
 **Insight:**  
-- Donation rates rise consistently with historical giving  
-- 6+ years of giving → 73%–94% likelihood to donate  
-- Past giving behavior provides the clearest signal of donor commitment.
+Donation likelihood sharply increases after **6+ prior giving years**, reaching **94.4 percent** for donors with nine years of giving history.  
+Retention and consistent stewardship matter significantly more than one-time campaigns.
 
 ---
 
-### 💵 4. Donation Rate by Total Cash Given (Last 10 Years)  
-Lifetime giving demonstrates a strong positive relationship with continued donations.
+## 💵 Donation Rate by Total Cash Given (Last 10 Years)  
+Lifetime cash giving is one of the strongest indicators of donor commitment.
 
-![Lifetime Giving](Dashboard-Images/lifetime_cash_donation_rate.png)
+![Donation Rate by Total Cash Given](Plots/total_cash_given.png)
 
 **Insight:**  
-- $501+ lifetime giving → ~64% donation rate  
-- $10 or less → ~12%  
-- Total cash given helps identify high-capacity donor groups.
+Alumni who have given **$501+ in the last decade** donate again at **63.7 percent**, compared to only **2.5 percent** of alumni with no giving history.  
+Cumulative giving is a highly predictive engagement metric.
 
 ---
 
-## 🔍 Summary of Actionable Findings
+# 🧠 Methods
 
-### 1. Engagement is a leading indicator of donation likelihood  
-More events = more loyalty.
+### Data Preparation  
+- Cleaned and segmented alumni engagement data  
+- Aggregated participation history (events, sports attendance, giving years)  
+- Created binned groups for clear behavioral interpretation  
+- Computed donation rate using average of a binary donation indicator  
 
-### 2. Athletic affinity signals long-term connection  
-Football game attendance is a valuable segmentation attribute.
-
-### 3. Prior giving history predicts future contributions  
-Consistent donors almost always return.
-
-### 4. Combining behavioral + financial indicators improves targeting  
-Advancement teams can more effectively:  
-- Identify high-propensity donors  
-- Personalize communication  
-- Prioritize outreach  
-- Improve conversion and retention rates
+### Visualization & Analysis  
+- Built four Tableau dashboards focused on behavioral segmentation  
+- Used percentage-labeling and sorting to show clear trends  
+- Interpreted each chart to identify high-value donor segments  
+- Delivered recommendations for Advancement strategy
 
 ---
 
-## 📝 Notes
+# 🛠 Tools & Skills Demonstrated
+- Tableau  
+- Behavioral analytics  
+- Data cleaning and segmentation  
+- KPI creation (donation rate)  
+- Visual storytelling and dashboard design  
+- Business insight development  
+- Donor lifecycle analysis  
 
-This work was produced for **BAS 479 (Business Analytics Capstone)** at **The University of Tennessee, Knoxville**.  
-The dataset is restricted and cannot be reproduced or shared externally. All outputs shown here are aggregated, de-identified summaries compliant with course and privacy guidelines.
+---
+
+# 🎯 Summary  
+This project identifies the strongest predictors of alumni giving behavior.  
+Across all categories, **engagement** and **history** matter most:
+
+- Event participation  
+- Game attendance  
+- Years of prior giving  
+- Lifetime contribution levels  
+
+These insights can directly inform targeted fundraising strategies and personalized outreach programs for universities and nonprofits seeking to improve donor retention.
+
+---
