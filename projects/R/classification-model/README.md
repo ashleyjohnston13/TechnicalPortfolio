@@ -31,7 +31,7 @@ This project highlights my experience with:
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### 1. ROC Curve
 
