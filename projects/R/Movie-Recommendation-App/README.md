@@ -2,7 +2,7 @@
 
 This project is an interactive movie recommendation tool built in R using the Shiny framework. The app allows users to select movies they enjoy and receive personalized recommendations generated from association rules.
 
-This was the **final project for my Business Analytics Capstone course (BAS 479) at the University of Tennessee, Knoxville**. The goal was to design a clean, intuitive interface that demonstrates how data-driven recommendations can be made using real-world techniques like market basket analysis.
+This was the final Shiny application I built for my Business Analytics Capstone course (BAS 479) at the University of Tennessee, Knoxville. The goal was to design a clean, intuitive interface that demonstrates how data-driven recommendations can be made using real-world techniques like market basket analysis.
 
 ---
 
