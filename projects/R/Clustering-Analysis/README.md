@@ -38,8 +38,3 @@ This project highlights my experience with:
 - Produced dendrogram using complete linkage  
 - Compared results to k-means  
 
----
-
-## 🖼 Visuals (optional)
-
-You may add images like:
