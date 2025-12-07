@@ -1,4 +1,4 @@
-# 🧬 Breast Cancer Classification in Python  
+# Breast Cancer Classification in Python  
 _Logistic Regression with Scikit-Learn_
 
 This project uses the **Breast Cancer Wisconsin dataset** to build a logistic regression model that predicts whether a tumor is **malignant** or **benign**.
@@ -7,7 +7,7 @@ It demonstrates my ability to work with Python for machine learning, including d
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **Key skills demonstrated:**
 
@@ -25,7 +25,7 @@ It demonstrates my ability to work with Python for machine learning, including d
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 **Test Accuracy:** ~0.97  
 **AUC:** ~0.997  
@@ -34,7 +34,7 @@ The model performs extremely well on this dataset, showing strong separation bet
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### **ROC Curve**
 Shows the tradeoff between sensitivity and specificity.  
@@ -58,7 +58,7 @@ Higher absolute coefficients indicate stronger influence on the classification d
 
 ---
 
-## 🧠 Top 5 Most Important Features
+## Top 5 Most Important Features
 
 Based on absolute logistic regression coefficients:
 
@@ -72,7 +72,7 @@ These features contribute most strongly to the model’s ability to distinguish 
 
 ---
 
-## 🛠️ Code
+## Code
 
 All logic for preprocessing, modeling, and plotting is contained in: `breast_cancer_classification.py`
 
@@ -84,7 +84,7 @@ Running the script automatically:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python3 breast_cancer_classification.py
