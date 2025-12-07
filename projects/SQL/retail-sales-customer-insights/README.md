@@ -1,56 +1,31 @@
-# Retail Sales and Customer Insights (SQL Analysis)
+# Retail Sales Customer Insights (SQL Project)
 
-This project uses the Chinook SQLite database to analyze customer purchasing behavior, revenue trends, and sales performance. The goal is to demonstrate SQL proficiency through business-focused insights across marketing, customer segmentation, and revenue reporting.
+This project analyzes customer behavior, revenue patterns, and sales performance using SQL queries built on the Chinook database. The goal is to demonstrate advanced SQL skills including joins, grouping, aggregation, and business-focused analytical queries.
 
-This project is part of my analytics portfolio and reflects how I structure data problems, explore database schemas, and write clean SQL queries for real-world analysis.
-
----
-
-## Database
-
-This analysis uses the publicly available Chinook database, which represents a digital music store. Key tables used include:
-
-- Customers
-- Invoices
-- InvoiceItems
-- Tracks
-- Albums
-- Artists
-- Genres
-- Employees
+The Chinook dataset models a digital music store, containing customers, invoices, tracks, employees, and more. This project extracts insights related to customer value, product performance, and sales operations.
 
 ---
 
-## Key Questions Answered
-
-1. Who are the highest-value customers?
-2. Which music genres generate the most revenue?
-3. Which artists drive the most sales?
-4. Which employees support the most revenue through customer accounts?
-5. Which countries contribute the highest total revenue?
-
----
-
-## Folder Structure
+## Project Structure
 
 retail-sales-customer-insights/
-│── chinook.db
-│── README.md
-│── queries/
-│     ├── 01_top_customers.sql
-│     ├── 02_revenue_by_genre.sql
-│     ├── 03_top_artists.sql
-│     ├── 04_employee_performance.sql
-│     ├── 05_country_revenue.sql
+│
+├── README.md
+└── queries/
+    ├── 01_top_customers.sql
+    ├── 02_revenue_by_genre.sql
+    ├── 03_top_artists.sql
+    ├── 04_employee_performance.sql
+    └── 05_country_revenue.sql
 
 ---
 
-## SQL Queries Included
-
-### 1. Top Revenue Customers  
+## 1. Top Revenue Customers
 File: queries/01_top_customers.sql
 
-SELECT c.CustomerId, c.FirstName, c.LastName,
+SELECT c.CustomerId,
+       c.FirstName,
+       c.LastName,
        SUM(i.Total) AS TotalSpent
 FROM customers c
 JOIN invoices i ON c.CustomerId = i.CustomerId
@@ -60,7 +35,7 @@ LIMIT 10;
 
 ---
 
-### 2. Revenue by Music Genre  
+## 2. Revenue by Music Genre
 File: queries/02_revenue_by_genre.sql
 
 SELECT g.Name AS Genre,
@@ -73,7 +48,7 @@ ORDER BY Revenue DESC;
 
 ---
 
-### 3. Top Revenue-Generating Artists  
+## 3. Top Revenue-Generating Artists
 File: queries/03_top_artists.sql
 
 SELECT ar.Name AS Artist,
@@ -88,10 +63,11 @@ LIMIT 10;
 
 ---
 
-### 4. Employee Sales Performance  
+## 4. Employee Sales Performance
 File: queries/04_employee_performance.sql
 
-SELECT e.FirstName, e.LastName,
+SELECT e.FirstName,
+       e.LastName,
        COUNT(i.InvoiceId) AS InvoicesHandled,
        SUM(i.Total) AS RevenueGenerated
 FROM employees e
@@ -102,7 +78,7 @@ ORDER BY RevenueGenerated DESC;
 
 ---
 
-### 5. Revenue by Country  
+## 5. Revenue by Country
 File: queries/05_country_revenue.sql
 
 SELECT BillingCountry,
@@ -114,22 +90,17 @@ ORDER BY Revenue DESC;
 
 ---
 
-## How to Run These Queries in Visual Studio Code
+## Skills Demonstrated
 
-1. Install the "SQLite Viewer" extension in VS Code.
-2. Open the chinook.db file using the extension.
-3. Navigate to the queries folder and open any .sql file.
-4. Highlight the query and run it using the SQLite extension’s interface.
-5. View or export results as needed.
+- SQL joins and multi-table relational querying
+- Grouping and aggregation functions
+- Revenue modeling and business metric creation
+- Customer value segmentation
+- Employee performance analytics
+- Organized SQL project file structure
 
 ---
 
-## Skills Demonstrated
+## Summary
 
-- SQL joins and aggregations
-- Customer segmentation
-- Revenue reporting
-- Organized, modular SQL project structure
-- Translating data into business insights
-
-This project demonstrates my ability to use SQL to extract, analyze, and interpret transactional data in a business context.
+This project highlights analytical SQL queries designed to extract meaningful business insights from a relational dataset. It demonstrates strength in writing clean, interpretable SQL for decision-making and analytics workflows.
