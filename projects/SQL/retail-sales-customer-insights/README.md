@@ -16,8 +16,9 @@ retail-sales-customer-insights/
 ```
 
 ## 1. Top Revenue Customers
-File: queries/01_top_customers.sql
+**File:** [queries/01_top_customers.sql](queries/01_top_customers.sql)
 
+```
 SELECT c.CustomerId,
        c.FirstName,
        c.LastName,
@@ -27,9 +28,10 @@ JOIN invoices i ON c.CustomerId = i.CustomerId
 GROUP BY c.CustomerId
 ORDER BY TotalSpent DESC
 LIMIT 10;
+```
 
 ## 2. Revenue by Music Genre
-File: queries/02_revenue_by_genre.sql
+**File:** [queries/02_revenue_by_genre.sql](queries/02_revenue_by_genre.sql)
 
 ```
 SELECT g.Name AS Genre,
@@ -42,7 +44,7 @@ ORDER BY Revenue DESC;
 ```
 
 ## 3. Top Revenue-Generating Artists
-File: queries/03_top_artists.sql
+**File:** [queries/03_top_artists.sql](queries/03_top_artists.sql)
 
 ```
 SELECT ar.Name AS Artist,
@@ -57,7 +59,7 @@ LIMIT 10;
 ```
 
 ## 4. Employee Sales Performance
-File: queries/04_employee_performance.sql
+**File:** [queries/04_employee_performance.sql](queries/04_employee_performance.sql)
 
 ```
 SELECT e.FirstName,
@@ -72,7 +74,7 @@ ORDER BY RevenueGenerated DESC;
 ```
 
 ## 5. Revenue by Country
-File: queries/05_country_revenue.sql
+**File:** [queries/05_country_revenue.sql](queries/05_country_revenue.sql)
 
 ```
 SELECT BillingCountry,
