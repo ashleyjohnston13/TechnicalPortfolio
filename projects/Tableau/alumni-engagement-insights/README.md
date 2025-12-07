@@ -1,59 +1,59 @@
-# 🎓 Alumni Donation Behavior Analysis  
+# Alumni Donation Behavior Analysis  
 **BAS 479 Business Analytics Capstone – University of Tennessee, Knoxville**
 
 This project analyzes key behavioral drivers of alumni donation likelihood using engagement, giving history, and event participation patterns. The goal is to help Advancement teams understand which touchpoints most strongly predict future giving.
 
 ---
 
-## ⚠️ Data Usage Notice
+## Data Usage Notice
 **This project uses a restricted dataset provided through BAS 479 at the University of Tennessee, Knoxville.**  
 The underlying data cannot be shared for academic integrity and confidentiality reasons.  
 All visualizations shown below are aggregated and permitted for public display.
 
 ---
 
-# 📊 Key Insights & Visualizations
+# Key Insights and Visualizations
 
 All insights below are derived from Tableau dashboards created for this project.
 
 ---
 
-## 🟧 Donation Rate by Alumni Event Participation  
+## Donation Rate by Alumni Event Participation  
 Alumni who stay engaged through events are dramatically more likely to donate.
 
 ![Donation Rate by Alumni Event Participation](Plots/Donation%20Rate%20by%20Alumni%20Event%20Participation.png)
 
 ---
 
-## 🏈 Donation Rate by Football Game Attendance  
+## Donation Rate by Football Game Attendance  
 Sports engagement strongly predicts donor loyalty.
 
 ![Donation Rate by Football Game Attendance](Plots/Donation%20Rate%20by%20Football%20Game%20Attendance%20.png)
 
 ---
 
-## 📈 Donation Rate by Number of Prior Giving Years  
+## Donation Rate by Number of Prior Giving Years  
 Giving history is the strongest predictor of future donations.
 
 ![Donation Rate by Number of Prior Giving Years](Plots/Donation%20Rate%20by%20Number%20of%20Prior%20Giving%20Years%20.png)
 
 ---
 
-## 💵 Donation Rate by Total Cash Given in the Last 10 Years  
+## Donation Rate by Total Cash Given in the Last 10 Years  
 Lifetime giving shows a powerful positive relationship with donating again.
 
 ![Donation Rate by Total Cash Given in the Last 10 Years](Plots/Donation%20Rate%20by%20Total%20Cash%20Given%20in%20the%20Last%2010%20Years%20.png)
 
 ---
 
-## 🎁 When 1st Gift — Driver Plot  
+## When First Gift Was Given — Driver Plot  
 Timing of the first donation reveals strong patterns linked to donor retention.
 
 ![When 1st Gift — Driver Plot](Plots/When%201st%20Gift%20—%20Driver%20Plot.png)
 
 ---
 
-# 🧠 Methods
+# Methods
 
 ### Data Preparation  
 - Cleaned and segmented alumni engagement data  
@@ -61,7 +61,7 @@ Timing of the first donation reveals strong patterns linked to donor retention.
 - Calculated donation rates using binary indicators  
 - Prepared analysis in R before visualizing in Tableau  
 
-### Visualization & Analysis  
+### Visualization and Analysis  
 - Built four Tableau dashboards focused on behavioral segmentation  
 - Used percentage labels for immediate interpretability  
 - Interpreted results to identify the most valuable engagement predictors  
@@ -69,7 +69,7 @@ Timing of the first donation reveals strong patterns linked to donor retention.
 
 ---
 
-# 🛠 Tools & Skills Demonstrated
+# Tools and Skills Demonstrated
 - Tableau  
 - R (data cleaning and transformation)  
 - Behavior-based segmentation  
@@ -80,8 +80,8 @@ Timing of the first donation reveals strong patterns linked to donor retention.
 
 ---
 
-# 🎯 Summary  
-This project highlights the behaviors that most strongly predict alumni giving in 2024 and beyond:
+# Summary  
+This project highlights the behaviors that most strongly predict alumni giving:
 
 - Event engagement  
 - Sports attendance  
