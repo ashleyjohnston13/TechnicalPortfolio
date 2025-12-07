@@ -4,8 +4,8 @@ This project is an interactive movie recommendation tool built in R using the Sh
 
 The goal of this project was to create a simple, intuitive interface that demonstrates how data-driven recommendations can be made using real-world methods like market basket analysis.
 
-🎬 **Live Demo**
-Try the interactive app here: [https://ashleyjohnston.shinyapps.io/case9/](url)
+### 🌐 **Live Demo**
+Try the interactive app here: [Launch the App](https://ashleyjohnston.shinyapps.io/case9/)
 
 ---
 
