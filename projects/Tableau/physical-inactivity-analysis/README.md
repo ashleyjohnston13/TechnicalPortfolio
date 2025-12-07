@@ -49,8 +49,8 @@ Income is the **strongest predictor** of inactivity. Higher-income counties cons
 ### 🗺️ 3. Physical Inactivity by County (Choropleth Map)  
 A geographic view of inactivity trends across Tennessee.
 
-- 🌟 **Lowest:** Williamson County — *17.1 percent*  
-- ⚠️ **Highest:** Hancock County — *37.2 percent*
+- 🌟 **Lowest:** Williamson County — *17.1%*  
+- ⚠️ **Highest:** Hancock County — *37.2%*
 
 ![Physical Inactivity by County Tennessee Map](Plots/Physical%20Inactivity%20by%20County%20Tennessee%20Map.png)
 
@@ -60,11 +60,16 @@ A geographic view of inactivity trends across Tennessee.
 
 Regression model estimated in Stata:
 
-$begin:math:display$
-PhysicalInactivity\_i \= \\beta\_0 \+ \\beta\_1 AccessExercise\_i 
-\+ \\beta\_2 Income\_i \+ \\beta\_3 Education\_i \+ \\beta\_4 Unemployment\_i 
-\+ \\beta\_5 Age\_i \+ \\beta\_6 Population\_i \+ \\varepsilon\_i
-$end:math:display$
+```text
+PhysicalInactivity_i = β0 
+    + β1 * AccessExercise_i 
+    + β2 * Income_i 
+    + β3 * Education_i 
+    + β4 * Unemployment_i 
+    + β5 * Age65Plus_i 
+    + β6 * Population_i 
+    + ε_i
+```
 
 ### 🔍 Key Results  
 - **Access to Exercise:** Not statistically significant  
