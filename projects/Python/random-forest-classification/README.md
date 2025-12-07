@@ -88,7 +88,6 @@ Plots will be saved automatically in the **Plots/** folder.
 
 ---
 
-## 😊 About This Project
+## 💭 About This Project
 
-This project demonstrates my ability to write clean analytical code, evaluate model performance, and present machine learning outputs clearly.  
-It is one of several Python and analytics projects included in my technical portfolio.
+This project demonstrates my ability to write clean analytical code, evaluate model performance, and present machine learning outputs clearly. This is one of several Python and analytics projects included in my technical portfolio.
