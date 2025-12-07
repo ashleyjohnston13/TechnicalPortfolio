@@ -24,23 +24,17 @@ This project highlights my experience with:
 ## 📊 Visualizations
 
 ### **1. PCA Visualization of K-Means Clusters**
-Clusters projected onto the first two principal components.
-
-![PCA Plot](cluster_pca_plot.png)
+![PCA Plot](Plots/cluster_pca_plot.png)
 
 ---
 
 ### **2. Cluster Profiles Across Variables**
-Standardized variable means for each cluster.
-
-![Cluster Profiles](cluster_profile_plot.png)
+![Cluster Profiles](Plots/cluster_profile_plot.png)
 
 ---
 
 ### **3. Hierarchical Clustering Dendrogram**
-Complete-linkage dendrogram showing cluster mergers.
-
-![Dendrogram](dendrogram.png)
+![Dendrogram](Plots/dendrogram.png)
 
 ---
 
@@ -50,9 +44,7 @@ Complete-linkage dendrogram showing cluster mergers.
 |------|-------------|
 | **Clustering.R** | Full reproducible R script |
 | **README.md** | Project overview and visuals |
-| **cluster_pca_plot.png** | PCA visualization |
-| **cluster_profile_plot.png** | Cluster profiles bar chart |
-| **dendrogram.png** | Hierarchical clustering dendrogram |
+| **Plots/** | Folder containing all generated visualizations |
 
 ---
 
@@ -63,6 +55,6 @@ Clustering analysis is a core tool in exploratory analytics, and this project de
 - Transform raw data  
 - Apply multiple clustering methods  
 - Evaluate results visually  
-- Communicate insights simply and clearly  
+- Communicate insights clearly  
 
 This reflects how I approach technical problems: clean the data, test methods, evaluate results, and explain findings clearly.
