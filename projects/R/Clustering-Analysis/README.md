@@ -1,7 +1,8 @@
-# Clustering Analysis in R  
-### K-Means + Hierarchical Clustering
+# Clustering Analysis in R
 
-This project demonstrates unsupervised learning techniques using R. I performed both k-means and hierarchical clustering to identify natural groupings in a dataset and visualize the structure of those clusters.
+## K-Means + Hierarchical Clustering
+
+This project demonstrates unsupervised learning techniques using R. I performed both k-means and hierarchical clustering to identify natural groupings in an example dataset and visualize the structure of those clusters.
 
 This assignment reflects work completed in my Business Analytics coursework at the University of Tennessee, where we practiced clustering, scaling, interpreting outputs, and choosing an appropriate number of clusters.
 
@@ -13,56 +14,55 @@ This project highlights my experience with:
 
 - Data preprocessing and scaling  
 - K-means clustering  
-- Hierarchical clustering (complete linkage)  
+- Hierarchical clustering  
 - PCA visualization  
-- Interpreting and comparing cluster structures  
-- Communicating findings through visuals  
+- Cluster profile interpretation  
+- R packages: `tidyverse`, `cluster`, `factoextra`, `ggplot2`
 
 ---
 
-## 📊 Visuals
+## 📊 Visualizations
 
-Below are the visual outputs generated from this analysis.  
-Make sure the image files are saved in this same folder.
+### **1. PCA Visualization of K-Means Clusters**
+Clusters projected onto the first two principal components.
 
----
-
-### **1. PCA Visualization of K-Means Clusters**  
-Shows how cluster separation appears across the first two principal components.
-
-![PCA Visualization](cluster_pca_plot.png)
+![PCA Plot](cluster_pca_plot.png)
 
 ---
 
-### **2. Cluster Profiles Across Variables**  
-Displays standardized mean values per variable for each cluster.
+### **2. Cluster Profiles Across Variables**
+Standardized variable means for each cluster.
 
-![Cluster Profile Plot](cluster_profile_plot.png)
+![Cluster Profiles](cluster_profile_plot.png)
 
 ---
 
-### **3. Hierarchical Clustering Dendrogram**  
-Visualizes how observations group together using complete linkage.
+### **3. Hierarchical Clustering Dendrogram**
+Complete-linkage dendrogram showing cluster mergers.
 
-![Hierarchical Dendrogram](dendrogram.png)
+![Dendrogram](dendrogram.png)
 
 ---
 
 ## 📁 Files in This Project
 
-- `Clustering.R` — Full reproducible R script  
-- `README.md` — Project overview   
+| File | Description |
+|------|-------------|
+| **Clustering.R** | Full reproducible R script |
+| **README.md** | Project overview and visuals |
+| **cluster_pca_plot.png** | PCA visualization |
+| **cluster_profile_plot.png** | Cluster profiles bar chart |
+| **dendrogram.png** | Hierarchical clustering dendrogram |
 
 ---
 
 ## ✔ Summary
 
-This project shows how clustering can uncover meaningful patterns in data.  
-It demonstrates my ability to:
+Clustering analysis is a core tool in exploratory analytics, and this project demonstrates how I:
 
-- Clean and prepare data  
-- Apply multiple clustering techniques  
-- Interpret and compare clustering outputs  
-- Present findings visually and clearly  
+- Transform raw data  
+- Apply multiple clustering methods  
+- Evaluate results visually  
+- Communicate insights simply and clearly  
 
----
+This reflects how I approach technical problems: clean the data, test methods, evaluate results, and explain findings clearly.
