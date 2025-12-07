@@ -51,8 +51,7 @@ Visualizes how observations group together using complete linkage.
 ## 📁 Files in This Project
 
 - `Clustering.R` — Full reproducible R script  
-- `README.md` — Project overview  
-- *(Optional)* Dataset if applicable  
+- `README.md` — Project overview   
 
 ---
 
