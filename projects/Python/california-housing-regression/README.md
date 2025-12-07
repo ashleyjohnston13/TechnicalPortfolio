@@ -69,17 +69,17 @@ Shows the distribution and density of predicted home values.
 
 ---
 
-## 🗂️ File Structure
+## 📁 File Structure
 
-california-regression/
-│── california_regression.py
-│── README.md
+california-housing-regression/
+├── california_regression.py
+├── README.md
 └── Plots/
-├── correlation_heatmap.png
-├── feature_importance.png
-├── actual_vs_predicted.png
-├── residuals_plot.png
-└── prediction_distribution.png
+    ├── correlation_heatmap.png
+    ├── feature_importance.png
+    ├── actual_vs_predicted.png
+    ├── residuals_plot.png
+    └── prediction_distribution.png
 
 ---
 
