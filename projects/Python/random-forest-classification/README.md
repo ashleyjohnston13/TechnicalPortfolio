@@ -1,4 +1,4 @@
-# 🧠 Random Forest Classification in Python  
+# Random Forest Classification in Python  
 ### Predicting Breast Cancer Diagnosis Using scikit-learn
 
 This project demonstrates a complete machine learning workflow using Python and scikit-learn.  
@@ -8,7 +8,7 @@ This project is part of my analytics portfolio and highlights my ability to buil
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The goal of this project was to build a classification model using the **Breast Cancer Wisconsin Diagnostic Dataset**.  
 A Random Forest classifier was selected due to its strong performance and interpretability.
@@ -24,7 +24,7 @@ The workflow includes:
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - Python 3.13  
 - pandas  
@@ -34,7 +34,7 @@ The workflow includes:
 
 ---
 
-## 🚀 Model Performance
+## Model Performance
 
 The model achieved strong performance:
 
@@ -44,7 +44,7 @@ The model achieved strong performance:
 
 ---
 
-## 📈 Visual Results
+## Visual Results
 
 ### Confusion Matrix
 ![Confusion Matrix](Plots/confusion_matrix.png)
@@ -61,7 +61,7 @@ The model achieved strong performance:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 random-forest-classification/
@@ -76,7 +76,7 @@ random-forest-classification/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Run the script in your terminal:
 
@@ -88,6 +88,6 @@ Plots will be saved automatically in the **Plots/** folder.
 
 ---
 
-## 💭 About This Project
+## About This Project
 
 This project demonstrates my ability to write clean analytical code, evaluate model performance, and present machine learning outputs clearly. This is one of several Python and analytics projects included in my technical portfolio.
