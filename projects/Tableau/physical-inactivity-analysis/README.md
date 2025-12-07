@@ -79,12 +79,19 @@ PhysicalInactivity_i = β0
 - **Population:** Slightly negative relationship  
 - **Age 65+:** Mild negative effect  
 
-### 🧩 Interpretation  
-Socioeconomic conditions — not exercise access — drive the majority of health behavior differences across counties.  
-Income, education, and employment explain far more variation in inactivity than infrastructure alone.
+# 📝 Interpretation  
+
+Socioeconomic factors — especially income and education — drive the majority of variation in physical inactivity across Tennessee counties.  
+Access to exercise facilities, while intuitively important, does **not** show a statistically significant effect once controlling for income and regional demographics.
+
+This suggests that addressing **structural economic inequalities** may be more effective than focusing solely on physical infrastructure.
 
 ---
 
-## 🎓 Academic Context  
+# 📂 Data Availability  
 
-This Tableau project accompanies my ECON 381 final regression paper. All data cleaning, Stata regression modeling, econometric interpretation, and conclusions were completed independently. Tableau was used solely for visualization.
+⚠️ **Important:**  
+The dataset used in this project comes from restricted ECON 381 course materials and the 2025 County Health Rankings.  
+Because it is educational and proprietary, **the raw data cannot be published online**.
+
+This README provides all allowable outputs: findings, code structure, and visualizations.
