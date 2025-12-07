@@ -1,5 +1,3 @@
-# Binary Classification in R: Predicting Transmission Type (mtcars)
-
 library(tidyverse)
 library(pROC)
 
@@ -9,9 +7,7 @@ data("mtcars")
 
 mt <- mtcars %>%
   rownames_to_column(var = "model") %>%
-  mutate(
-    am = factor(am, levels = c(0, 1), labels = c("Automatic", "Manual"))
-  ) %>%
+  mutate(am = factor(am, levels = c(0, 1), labels = c("Automatic", "Manual"))) %>%
   select(model, am, hp, wt, mpg, qsec)
 
 n <- nrow(mt)
@@ -27,6 +23,7 @@ log_model <- glm(
 )
 
 test_probs <- predict(log_model, newdata = test, type = "response")
+
 test_pred_class <- ifelse(test_probs >= 0.5, "Manual", "Automatic") %>%
   factor(levels = levels(train$am))
 
@@ -37,10 +34,12 @@ cm <- table(
 
 accuracy <- sum(diag(cm)) / sum(cm)
 
-roc_obj <- roc(response = test$am,
-               predictor = test_probs,
-               levels = c("Automatic", "Manual"),
-               direction = "<")
+roc_obj <- roc(
+  response = test$am,
+  predictor = test_probs,
+  levels = c("Automatic", "Manual"),
+  direction = "<"
+)
 
 auc_value <- auc(roc_obj)
 
@@ -56,15 +55,16 @@ coef_df <- coef(summary(log_model)) %>%
     abs_estimate = abs(estimate)
   )
 
-if (!dir.exists("Plots")) {
-  dir.create("Plots")
-}
+dir.create("Plots", showWarnings = FALSE)
 
-roc_plot <- ggplot(data = data.frame(
-  tpr = roc_obj$sensitivities,
-  fpr = 1 - roc_obj$specificities
-)) +
-  geom_line(aes(x = fpr, y = tpr)) +
+roc_plot <- ggplot(
+  data = data.frame(
+    tpr = roc_obj$sensitivities,
+    fpr = 1 - roc_obj$specificities
+  ),
+  aes(x = fpr, y = tpr)
+) +
+  geom_line() +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
   labs(
     title = paste0("ROC Curve (AUC = ", round(auc_value, 3), ")"),
