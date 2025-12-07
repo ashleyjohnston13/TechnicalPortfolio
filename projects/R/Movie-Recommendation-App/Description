@@ -1,0 +1,17 @@
+Package: MovieRecommendationApp
+Type: ShinyApp
+Title: Movie Recommendation System Using Market Basket Analysis
+Version: 1.0
+Author: Ashley Johnston
+Maintainer: Ashley Johnston <ashley@knoxvillemovement.com>
+Description: 
+    An interactive Shiny application built for my BAS 479 Business Analytics Capstone at 
+    the University of Tennessee, Knoxville. The app uses association rule mining 
+    to generate personalized movie recommendations based on user selections.
+Depends:
+    R (>= 4.2)
+Imports:
+    shiny,
+    arules,
+    tidyverse
+License: MIT
