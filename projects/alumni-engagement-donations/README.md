@@ -21,7 +21,7 @@ All insights below are derived from Tableau dashboards created for this project.
 ## 🟧 Donation Rate by Alumni Event Participation  
 Alumni who stay actively engaged through events are far more likely to give again.
 
-![Donation Rate by Alumni Event Participation](Donation%20Rate%20by%20Alumni%20Event%20Participation.png)
+![Donation Rate by Alumni Event Participation](projects/alumni-engagement-donations/Plots/Donation Rate by Alumni Event Participation.png)
 
 **Insight:**  
 Alumni who attend **5+ events** donate at **83.3 percent**, compared to **9.8 percent** for those attending none.
