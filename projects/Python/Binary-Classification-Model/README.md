@@ -1,49 +1,77 @@
-# Binary Classification in Python: Breast Cancer Prediction
+# 🧬 Breast Cancer Classification in Python  
+_Logistic Regression with Scikit-Learn_
 
-This project is a small, self-contained example of building and evaluating a binary classification model in Python using scikit-learn. The goal is to predict whether a tumor is **malignant** or **benign** using features from the built-in `load_breast_cancer` dataset.
+This project uses the **Breast Cancer Wisconsin dataset** to build a logistic regression model that predicts whether a tumor is **malignant** or **benign**.
 
-This assignment reflects work from my Business Analytics coursework, and is meant to show my ability to use Python for:
-
-- Data preparation and train/test splits  
-- Logistic regression modeling  
-- Model evaluation with accuracy, classification reports, and ROC/AUC  
-- Simple feature importance and visualization
+It demonstrates my ability to work with Python for machine learning, including data preprocessing, scaling, model building, evaluation, and visualization.
 
 ---
 
-## 🎯 What This Project Shows
+## 📌 Project Overview
 
-**Core skills:**
+**Key skills demonstrated:**
 
-- Working with scikit-learn’s built-in datasets  
-- Building a logistic regression pipeline with standardized features  
-- Evaluating a model using:
-  - Accuracy
-  - Confusion matrix
+- Loading and preparing real-world biomedical data  
+- Splitting data into training and testing sets  
+- Standardizing features  
+- Training a logistic regression classifier  
+- Evaluating performance using:  
+  - Accuracy  
+  - Classification report  
+  - Confusion matrix  
   - ROC curve and AUC  
-- Visualizing model results
+- Identifying feature importance  
+- Saving visualizations programmatically
 
 ---
 
-## 🧠 Dataset
+## 📊 Model Performance
 
-- **Source:** `sklearn.datasets.load_breast_cancer`  
-- **Target:** `0 = malignant`, `1 = benign`  
-- **Features:** 30 numeric predictors describing cell nuclei (radius, texture, smoothness, etc.)
+**Test Accuracy:** ~0.97  
+**AUC:** ~0.997  
 
-No external files are required. The script pulls the dataset directly from scikit-learn.
+The model performs extremely well on this dataset, showing strong separation between malignant and benign cases.
 
 ---
 
-## 🛠 Tools & Libraries
+## 📈 Visualizations
 
-- Python 3  
-- `pandas`  
-- `numpy`  
-- `scikit-learn`  
-- `matplotlib`
+### **ROC Curve**
+Shows the tradeoff between sensitivity and specificity.  
+Higher AUC indicates strong predictive power.
 
-Install everything with:
+![ROC Curve](Plots/roc_curve.png)
 
-```bash
-pip install pandas numpy scikit-learn matplotlib
+---
+
+### **Confusion Matrix**
+Displays correct vs incorrect classifications for malignant and benign cases.
+
+![Confusion Matrix](Plots/confusion_matrix.png)
+
+---
+
+### **Feature Importance (Absolute Coefficients)**
+Higher absolute coefficients indicate stronger influence on the classification decision.
+
+![Feature Importance](Plots/feature_importance.png)
+
+---
+
+## 🧠 Top 5 Most Important Features
+
+Based on absolute logistic regression coefficients:
+
+1. radius error  
+2. worst radius  
+3. worst area  
+4. compactness error  
+5. worst concave points  
+
+These features contribute most strongly to the model’s ability to distinguish malignant vs benign tumors.
+
+---
+
+## 🛠️ Code
+
+All logic for preprocessing, modeling, and plotting is contained in:
