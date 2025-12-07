@@ -82,11 +82,4 @@ Income, education, and employment explain far more variation in inactivity than 
 
 ## 🎓 Academic Context  
 
-This Tableau project accompanies my ECON 381 final regression paper.  
-All data cleaning, Stata regression modeling, econometric interpretation, and conclusions were completed independently. Tableau was used solely for visualization.
-
----
-
-## 🤖 AI Use Statement  
-Portions of this README were assisted by ChatGPT for structure and formatting.  
-All analysis, Stata coding, modeling decisions, and interpretations were done independently.
+This Tableau project accompanies my ECON 381 final regression paper. All data cleaning, Stata regression modeling, econometric interpretation, and conclusions were completed independently. Tableau was used solely for visualization.
