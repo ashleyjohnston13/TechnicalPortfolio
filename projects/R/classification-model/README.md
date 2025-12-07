@@ -8,7 +8,7 @@ This assignment reflects work completed in my Business Analytics coursework at t
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project highlights my experience with:
 
@@ -20,7 +20,7 @@ This project highlights my experience with:
 
 ---
 
-## 🔧 Methods
+## Methods
 
 - **Dataset:** `mtcars` (built-in R dataset)  
 - **Target:** `am` (0 = automatic, 1 = manual)  
@@ -57,7 +57,7 @@ Standardized coefficient magnitudes to compare predictor influence.
 
 ---
 
-## 📁 Files in This Project
+## Files in This Project
 
 | File | Description |
 |------|-------------|
@@ -67,7 +67,7 @@ Standardized coefficient magnitudes to compare predictor influence.
 
 ---
 
-## ✔ Summary
+## Summary
 
 This project demonstrates how I build, evaluate, and explain a binary classification model in R. It shows my ability to:
 
