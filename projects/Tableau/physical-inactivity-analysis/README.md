@@ -32,27 +32,27 @@ projects/
 
 ---
 
-### 🏃‍♀️ 1. Access to Exercise vs Physical Inactivity  
-Counties with more exercise access tend to have *slightly* lower inactivity, but the relationship is weak.
+## 1️⃣ **Access to Exercise vs Physical Inactivity**  
+Counties with more exercise access tend to have slightly lower inactivity, but the relationship is weak.
 
-![Access to Exercise vs Physical Inactivity](Plots/Access%20Exercise%20vs%20Physical%20Inactivity.png)
-
----
-
-### 💰 2. Median Household Income vs Physical Inactivity  
-Income is the **strongest predictor** of inactivity. Higher-income counties consistently show lower inactivity rates.
-
-![Median Household Income vs Physical Inactivity](Plots/Median%20Household%20Income%20vs%20Physical%20Inactivity.png)
+![Access to Exercise](Plots/Access%20to%20Exercise%20vs%20Physical%20Inactivity%20(Tennessee%20Counties).png)
 
 ---
 
-### 🗺️ 3. Physical Inactivity by County (Choropleth Map)  
-A geographic view of inactivity trends across Tennessee.
+## 2️⃣ **Median Household Income vs Physical Inactivity**  
+Higher-income counties consistently have lower physical inactivity, showing a strong negative relationship.
+
+![Income vs Inactivity](Plots/Median%20Household%20Income%20vs%20Physical%20Inactivity.png)
+
+---
+
+## 3️⃣ **Physical Inactivity by County (Choropleth Map)**  
+A geographic breakdown of physical inactivity across Tennessee.
 
 - 🌟 **Lowest:** Williamson County — *17.1%*  
 - ⚠️ **Highest:** Hancock County — *37.2%*
 
-![Physical Inactivity by County Tennessee Map](Plots/Physical%20Inactivity%20by%20County%20Tennessee%20Map.png)
+![TN Map](Plots/Physical%20Inactivity%20by%20County,%20Tennessee.png)
 
 ---
 
