@@ -1,5 +1,4 @@
-# Physical Inactivity & Socioeconomic Drivers in Tennessee  
-**ECON 381 — Applied Econometrics Project | Economics Collateral, Business Analytics B.S., University of Tennessee**
+# Physical Inactivity & Socioeconomic Drivers in Tennessee
 
 This project was completed as part of my *Economics collateral* within the Business Analytics program at UTK.  
 It investigates the socioeconomic and environmental determinants of physical inactivity across Tennessee counties using:
@@ -13,7 +12,6 @@ This dashboard complements my full econometric paper, where I estimated predicto
 ---
 
 ## File Structure  
-*(Images stored in `/projects/Tableau/physical-inactivity-analysis/Plots/`)*
 
 ```
 projects/
