@@ -1,49 +1,49 @@
 # Ashley Johnston  
-### Technical Writer & Systems Analyst  
+### Technical Writer and Workflow Designer | Business Analytics Graduate
 
-📍 Based in Knoxville, TN  
-🛠 Haslam College of Business Alumni – Business Analytics, University of Tennessee  
-🚀 Founder of Knoxville Movement Collective ([learn more](https://knoxvillemovement.com))  
-💡 I love turning messy or unclear processes into clean, efficient systems that help people work smarter.  
+Based in Knoxville, Tennessee  
+Haslam College of Business Alumni – Business Analytics, University of Tennessee  
+Founder of Knoxville Movement Collective (https://knoxvillemovement.com)  
 
-Thanks for being here — I hope you have a great day!
+I specialize in turning unclear or inconsistent processes into clean, documented systems that help teams work more efficiently. I enjoy solving operational problems, writing clear guides, and designing workflows that reduce friction for users and organizations.
 
 ---
 
 # Technical Portfolio Overview
 
-This portfolio brings together my work across **technical writing, systems documentation, troubleshooting, and workflow design**. I enjoy creating structure where things feel unclear and building processes that make information easier to understand and use.
+This portfolio brings together my work across technical writing, systems documentation, workflow design, SQL, R, Python, Tableau, and operational problem solving.
 
-Inside this repository, you'll find:
+Inside this repository, you will find:
 
-- **Example technical case studies** developed to demonstrate structured problem solving, root cause analysis, and clear documentation  
-- **Real operational workflows from KMC**, a community organization I founded and designed systems for  
-- **Guides and instructional documentation** written for clarity, usability, and simplicity  
-- **About documents** that capture my approach, philosophy, and background  
+- Case studies demonstrating structured problem solving and clear documentation  
+- Real operational workflows designed for Knoxville Movement Collective  
+- Guides and procedural documentation focused on clarity and usability  
+- Analytics, machine learning, SQL, R, and Tableau projects  
+- About documents explaining my technical philosophy and system design approach  
 
 ---
 
-# 📂 Case Studies
+# Case Studies
 
-## Technical (Example Scenarios)
-These are fictionalized scenarios created to showcase my analytical approach and my ability to document technical investigations clearly.
+## Technical Case Studies (Example Scenarios)
+These are fictionalized technical investigations created to demonstrate my analytical and documentation approach.
 
-- [CRM–Analytics Sync Incident – Root Cause Analysis](case-studies/CRM-Analytics-Sync-Incident-Case-Study.md)
+- [CRM Analytics Sync Incident – Root Cause Analysis](case-studies/CRM-Analytics-Sync-Incident-Case-Study.md)
 
-## Operational (Real KMC Workflows)
-These case studies represent real systems I designed as the founder of Knoxville Movement Collective.
+## Operational Case Studies (Real KMC Systems)
+These represent real systems I designed and maintained as the founder of Knoxville Movement Collective.
 
 - [KMC Coach Onboarding Workflow](case-studies/KMC-Coach-Onboarding-Workflow-Case-Study.md)  
 - [KMC Event Scheduling Workflow](case-studies/KMC-Event-Scheduling-Workflow-Case-Study.md)  
-- [KMC Safety Reporting & Escalation Workflow](case-studies/KMC-Safety-Reporting-Workflow-Case-Study.md)
+- [KMC Safety Reporting and Escalation Workflow](case-studies/KMC-Safety-Reporting-Workflow-Case-Study.md)
 
 ---
 
-# 📝 Guides
+# Guides
 
-Clear, user-centered documentation designed to help people complete tasks, understand processes, and troubleshoot issues.
+User-centered documentation designed to help people complete tasks, troubleshoot issues, or understand new systems.
 
-- [API & Data Sync Troubleshooting Guide](guides/API-Sync-Troubleshooting-Guide.md)  
+- [API and Data Sync Troubleshooting Guide](guides/API-Sync-Troubleshooting-Guide.md)  
 - [How to Write a Bug Report](guides/How-to-Write-a-Bug-Report.md)  
 - [How to Read Logs](guides/How-to-Read-Logs.md)  
 - [How to Install Windows](guides/How-to-Install-Windows.md)  
@@ -53,30 +53,42 @@ Clear, user-centered documentation designed to help people complete tasks, under
 
 ---
 
-# 📚 About My Work
+# Analytics and Technical Projects
 
-These documents provide insight into how I think, how I solve problems, and how I design systems that support teams and users.
+This portfolio also includes work across SQL, R, Python, and Tableau:
 
-- [Career Summary / Who I Am](about/Career-Summary.md)  
-- [My Problem-Solving Approach](about/My-Problem-Solving-Approach.md)  
+- SQL projects analyzing customer behavior, revenue, and supply chain performance  
+- Machine learning and statistical models in Python  
+- R projects including clustering, classification, and Shiny applications  
+- Tableau dashboards analyzing alumni engagement, donation behavior, and Tennessee health indicators  
+
+Each project folder includes a clear README, data workflows, and code or queries used in the analysis.
+
+---
+
+# About My Work
+
+These documents describe how I think about technical writing, problem solving, and system design.
+
+- [Career Summary](about/Career-Summary.md)  
+- [My Problem Solving Approach](about/My-Problem-Solving-Approach.md)  
 - [My Documentation Philosophy](about/Documentation-Philosophy.md)  
 - [My Systems Design Approach](about/Systems-Design-Approach.md)  
-- [Tools & Technologies I Use](about/Tools-and-Technologies.md)
+- [Tools and Technologies I Use](about/Tools-and-Technologies.md)
 
 ---
 
 # Why I Built This Portfolio
 
-I’m drawn to roles where I can:
+I am drawn to roles where I can:
 
-- organize complexity  
+- organize complex processes  
 - create clarity in documentation  
-- solve problems through structure and analysis  
-- build workflows and systems that reduce friction for teams  
-- support users with patience and clear communication  
+- solve operational problems  
+- build workflows and systems that support teams  
+- communicate clearly with both technical and non-technical users  
 
-Technical writing and systems analysis combine the strengths I’ve developed across Apple, UTK, and Knoxville Movement Collective.
+My background across Apple, UTK, and Knoxville Movement Collective reflects a combination of customer support, systems design, process creation, and technical communication. This portfolio is designed to show those skills through real work and structured examples.
 
-This portfolio is designed to demonstrate that — through real examples, example scenarios, guides, and my overall approach to designing clear, dependable systems.
-
-Thanks again for taking the time to explore my work! If you'd like to connect, you can reach me at **ashley@knoxvillemovement.com**.
+Thank you for taking the time to explore my work.  
+If you would like to connect, you can reach me at ashley@knoxvillemovement.com.
